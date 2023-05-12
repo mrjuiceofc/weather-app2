@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.504);
+    background-size:cover;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 120%;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.651);
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.027);
+    color: white;
+    cursor: pointer;
+    transition:0.3s ease-in-out;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.142);
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.027);
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.7em;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.flex {
+    display:flex;
+    align-items: center;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
