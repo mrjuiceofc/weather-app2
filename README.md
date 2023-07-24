@@ -12,7 +12,9 @@ The app is easy to use and visually appealing, with a clean and modern design. T
 
 ![Desktop Demo](https://oktayshakirov.com/assets/images/projects/weather-app.png "Desktop Demo")
 
-Also viewable [here](https://oktayshakirov.github.io/weather-app)
+<p align="center">
+  <a href="https://oktayshakirov.github.io/weather-app"><strong>➥ Live Demo</strong></a>
+</p>
 
 
 ## License
